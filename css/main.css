@@ -1,0 +1,29 @@
+/*-----------------------starting css for body-------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.navi {
+    display: flex;
+}
+.navigation_bar {
+    text-decoration: none;
+    color: black;
+}
+.booking_part {
+    display: flex;
+}
+.order_button {
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 20px;
+    border-color: white;
+}
+.product_img{
+    width: 440px;
+    height: 414px;
+}
