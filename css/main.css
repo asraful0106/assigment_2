@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /*-----------------------starting css for body-------------------------------*/
 *{
     margin: 0;
@@ -5,25 +7,76 @@
 }
 body{
     background-color: white;
+    font-family: 'Poppins', sans-serif;
 }
 .navi {
     display: flex;
 }
+.heading {
+    margin-top: 2.63%;
+    margin-left: 8.33%;
+}
 .navigation_bar {
+    margin-top: 2.63%;
+    margin-left: 60%;
+}
+.navigation_bar a {
     text-decoration: none;
     color: black;
+    padding-right: 8px;
+    font-weight: 700;
 }
 .booking_part {
     display: flex;
+}
+.product_info {
+    width: 582px;
+    height: 270px;
+    margin-left: 8.33%;
+    margin-top: 145.8px;
 }
 .order_button {
     background-color: #E02C6D;
     color: white;
     padding: 10px 24px;
     border-radius: 20px;
+    margin-top: 20px;
     border-color: white;
 }
 .product_img{
     width: 440px;
     height: 414px;
+    margin-top: 80px;
+    margin-left: 800px;
+}
+.sponser{
+    margin-top: 100px;
+}
+.sponser_img{
+    padding-top: 29px;
+    padding-bottom: 29px;
+    display: flex;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+    margin-top: 100px;
+}
+.item img{
+    width: 300px;
+    height: 256px;
+}
+.item h1{
+    padding-top: 16px;
+}
+.item p{
+    font-weight: 500;
+    font-size: 35px;
+    padding-top: 6px;
+}
+.star_color{
+    color: orange;
+}
+.item h4{
+    color: #787885;
 }
